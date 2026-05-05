@@ -23,7 +23,7 @@ function loadImages() {
     let logos = document.querySelectorAll('.js-logo-image');
 
     // console.log(logos);
-    logos.forEach(logo => {
+    logos.forEach(logo => { // Loop for multiple image uses
         logo.src = myLogo;
     });
     
