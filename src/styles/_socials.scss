@@ -1,0 +1,19 @@
+@use 'colors';
+
+.socialMedia {
+    
+    margin-bottom: 20px;
+
+    .social {
+        display: inline-block;
+        margin: 0 .5rem;
+        background-color: var(--primary-color);
+        padding: 0.5rem .75rem;
+        transition: .4s;
+
+        img {
+            height: 15px;
+            vertical-align: middle;
+        }
+    }
+}
